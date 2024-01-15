@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Paragraph Modification</title>
+</head>
+<body>
+
+    <p id="myParagraph">I am a Python Developer &amp; Design Web pages.</p>
+
+    <script>
+        // Modify the paragraph content
+        var paragraph = document.getElementById('myParagraph');
+        paragraph.innerHTML = paragraph.innerHTML.replace('Python Developer', '<del>Python Developer</del> <ins>Web Designer</ins>');
+    </script>
+
+</body>
+</html>
